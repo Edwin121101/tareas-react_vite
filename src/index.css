@@ -1,0 +1,85 @@
+#body {
+  background-color:#436EC3;
+}
+
+#title, #tareas {
+  margin-bottom: 24px;
+  margin-top: 60px;
+  text-transform: uppercase;
+  text-align: left; 
+  font-family: Comic Sans MS; 
+  font-weight:bold; 
+  font-size: 40px; 
+  color: #EBD758; 
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 
+}
+
+li {
+  width:900px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+  margin-bottom: 5px;
+}
+
+
+form{
+	width:900px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:white;
+}
+
+form label{
+	font-weight:bold;
+  border-radius: 3px;
+}
+
+form input[type="text"]{
+	width:180px;
+	padding:3px 10px;
+	border:3px solid #436EC3;
+	border-radius:4px;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form select{
+	width:180px;
+	padding:3px 10px;
+	border:3px solid #436EC3;
+	border-radius:4px;
+	margin:8px 0;
+	display:inline-block;
+  border-radius: 10px;
+}
+
+form button[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+  align-items: center;
+} 
+
+form button[type="submit"]:hover{
+	cursor:pointer;
+  color: #EBD758;
+  font-weight: 600;
+}
+
+#textarea {
+	width:100%;
+	height:100px;
+	border:3px solid #436EC3;
+	border-radius:4px;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
